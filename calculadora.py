@@ -1,21 +1,21 @@
-def calculadora(num1, num2, operacao):
+def calculadora(opcao_1, opcao_2, operacao):
     if operacao == 1:
-        solucao = num1 + num2
+        solucao = opcao_1 + opcao_2
     elif operacao == 2:
-        solucao = num1 - num2
+        solucao = opcao_1 - opcao_2
     elif operacao == 3:
-        solucao = num1 * num2
+        solucao = opcao_1 * opcao_2
     elif operacao == 4:
-        if num2 != 0: 
-            solucao = num1 / num2
+        if opcao_2 != 0: 
+            solucao = opcao_1 / opcao_2
         else:
-            solucao = 0  
+            solucao = "divisão por zero não permitida!"
     else:
-        solucao = 0  
+        solucao = "Operação Invalida"
     return solucao
 
 opcao_1 = 25
 opcao_2 = 18
-operacao = 1
+operacao = 1 
 solucao = calculadora(opcao_1, opcao_2, operacao)
-print("Solucão da Operacão é --->", solucao)
+print("Solução da Operação é --->", solucao)
