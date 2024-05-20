@@ -14,8 +14,8 @@ def calculadora(opcao_1, opcao_2, operacao):
         solucao = "Operação Invalida"
     return solucao
 
-opcao_1 = 25
-opcao_2 = 18
-operacao = 1 
+opcao_1 = 18
+opcao_2 = 0
+operacao = 4 
 solucao = calculadora(opcao_1, opcao_2, operacao)
 print("Solução da Operação é --->", solucao)
