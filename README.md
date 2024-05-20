@@ -1,4 +1,4 @@
-# Calculadora Simples em Python
+# Calculadora Simples em Python (Sem interação)
 Projeto Introdutório de Programação(Proz - Talent Cloud)
 
 Este repositório contém uma calculadora simples em Python, que realiza operações de adição, subtração, multiplicação e divisão entre dois números.
